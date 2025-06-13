@@ -1,0 +1,101 @@
+body {
+  background-color: #e6f0ff;
+  scroll-behavior: smooth;
+}
+
+/* === NAVBAR === */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar .btn {
+  margin-left: 10px;
+}
+
+/* === BANNER / HOME === */
+#home {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#home img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#home .text-center {
+  padding-top: 60px;
+  color: white;
+}
+
+#home h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+#home p {
+  font-size: 1.25rem;
+}
+
+/* === SECTION TITLES === */
+section h2 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* === KAMPANYE SECTION === */
+#kampanye .card {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  border: none;
+  transition: transform 0.2s ease;
+  color: white;
+}
+
+#kampanye .card:hover {
+  transform: translateY(-5px);
+}
+
+#kampanye .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* === DONASI FORM === */
+#donasi form {
+  max-width: 600px;
+  margin: auto;
+}
+
+#donasi .form-label {
+  font-weight: 500;
+}
+
+#donasi .btn {
+  width: 100%;
+}
+
+/* === FOOTER === */
+footer {
+  margin-top: 60px;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  #home h1 {
+    font-size: 2.5rem;
+  }
+
+  #home p {
+    font-size: 1rem;
+  }
+
+  #kampanye .card-img-top {
+    height: 180px;
+  }
+}

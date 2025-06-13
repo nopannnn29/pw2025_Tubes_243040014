@@ -1,0 +1,12 @@
+.kontak {
+  background: url("wht.jpg") no-repeat center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: white;
+}
+
+.btn-nonton-movie {
+  background-color: red;
+  color: white;
+}
